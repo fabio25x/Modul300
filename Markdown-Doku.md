@@ -22,5 +22,17 @@
 <span class="token function">git</span> commit -m <span class="token string">"Dokus"</span>
 <span class="token function">git</span> push -u origin master
 </code></pre>
-<p>f</p>
+<h2 id="vagrant">Vagrant</h2>
+<h3 id="installation">Installation</h3>
+<pre class=" language-bash"><code class="prism  language-bash"><span class="token function">apt-get</span> <span class="token function">install</span> vagrant
+</code></pre>
+<h3 id="vm-erstellen-und-benutzen">VM erstellen und benutzen</h3>
+<p>Ein neues Vagrantfile erstellt man mit diesem Befehl:</p>
+<pre class=" language-bash"><code class="prism  language-bash">vagrant init ubuntu/xenial64 
+</code></pre>
+<p>Im Verzeichnis welches das Vagrantfile liegt kann man dann</p>
+<pre class=" language-bash"><code class="prism  language-bash">vagrant up
+</code></pre>
+<p>die Virtuelle Maschine starten.</p>
+<p>Das Vagrantfile welches ich erstellt habe ist im GitHub zu finden.</p>
 
