@@ -16,4 +16,10 @@
 <span class="token function">git</span> clone https://github.com/mc-b/devops
 </code></pre>
 <p>Um immer die Dateien auf dem aktuellsten Stand zu haben, hat Julian ein Skript geschrieben.</p>
+<pre class=" language-bash"><code class="prism  language-bash"><span class="token function">git</span> status
+<span class="token function">git</span> add Dokus/
+<span class="token function">git</span> push
+<span class="token function">git</span> commit -m <span class="token string">"Dokus"</span>
+<span class="token function">git</span> push -u origin master
+</code></pre>
 
