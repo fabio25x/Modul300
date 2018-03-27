@@ -35,4 +35,10 @@
 </code></pre>
 <p>die Virtuelle Maschine starten.</p>
 <p>Das Vagrantfile welches ich erstellt habe ist im GitHub zu finden.</p>
+<h2 id="testing">Testing</h2>
+<p>Nachdem ich die VM mit Vagrant gestartet habe, meldete ich mich mit vagrant ssh auf die VM ein und überprüfte ob die gewünschten Prozesse laufen.</p>
+<p>Apache:<br>
+<img src="https://perrone.myqnapcloud.com:450/share.cgi/Prozesse%20Apache.png?ssid=02YbC2K&amp;fid=02YbC2K&amp;path=%2F&amp;filename=Prozesse%20Apache.png&amp;openfolder=normal&amp;ep=" alt="alt-text"></p>
+<p>Firewall:<br>
+<img src="https://perrone.myqnapcloud.com:450/share.cgi/Firewall.png?ssid=02YbC2K&amp;fid=02YbC2K&amp;path=%2F&amp;filename=Firewall.png&amp;openfolder=normal&amp;ep=" alt="alt-text"></p>
 
