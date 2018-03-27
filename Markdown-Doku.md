@@ -10,9 +10,10 @@
 <h2 id="github">GitHub</h2>
 <p>Git installation<br>
 <code>sudo apt-get install git</code></p>
-<p>Um verschiedene Beispiele auf der VM zu haben, habe ich die devops Repository auf meiner VM geclont.<br>
-<code>git config --global user.name"fabio25x"</code><br>
-<code>git config --global user.email "fabio.perrone@edu.tbz.ch"</code><br>
-<code>git clone https://github.com/mc-b/devops</code></p>
+<p>Um verschiedene Beispiele auf der VM zu haben, habe ich die devops Repository auf meiner VM geclont.</p>
+<pre class=" language-bash"><code class="prism  language-bash"><span class="token function">git</span> config --global user.name<span class="token string">"fabio25x"</span>
+<span class="token function">git</span> config --global user.email <span class="token string">"fabio.perrone@edu.tbz.ch"</span>
+<span class="token function">git</span> clone https://github.com/mc-b/devops
+</code></pre>
 <p>Um immer die Dateien auf dem aktuellsten Stand zu haben, hat Julian ein Skript geschrieben.</p>
 
