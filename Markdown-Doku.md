@@ -34,6 +34,9 @@
 <pre class=" language-bash"><code class="prism  language-bash">vagrant up
 </code></pre>
 <p>die Virtuelle Maschine starten.</p>
+<p>Zum sich auf die VM zu verbinden kann man diesen Befehl verwenden:</p>
+<pre class=" language-bash"><code class="prism  language-bash">vagrant <span class="token function">ssh</span>
+</code></pre>
 <p>Das Vagrantfile welches ich erstellt habe ist im GitHub zu finden.</p>
 <h2 id="testing">Testing</h2>
 <p>Nachdem ich die VM mit Vagrant gestartet habe, meldete ich mich mit vagrant ssh auf die VM ein und überprüfte ob die gewünschten Prozesse laufen.</p>
