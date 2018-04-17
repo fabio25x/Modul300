@@ -34,16 +34,19 @@ CMD ["/usr/sbin/apache2", "-D", "FOREGROUND"]
 <p>Mit exit kann man dann die Verbindung abbrechen.</p>
 <h2 id="sicherheit">Sicherheit</h2>
 <p>Firewall</p>
-<pre><code>root@e5531787bfa0:/# ufw status
+<pre><code>root@f45cc37f9f6a:/# ufw status
 Status: inactive
-root@e5531787bfa0:/# ufw enable
+root@f45cc37f9f6a:/# ufw enable
 Firewall is active and enabled on system startup
-root@e5531787bfa0:/#
+root@f45cc37f9f6a:/#
 </code></pre>
 <p>Memory</p>
 <pre><code>docker run -m 2096m --memory-swap 2096m
 </code></pre>
 <p>Max Anzahl Megabite die einem Container zur verfügung stehen.</p>
+<h2 id="testing">Testing</h2>
+<p>Container<br>
+<img src="https://perrone.myqnapcloud.com:450/share.cgi/Bildschirmfoto%202018-04-17%20um%2014.15.59.png?ssid=02YbC2K&amp;fid=02YbC2K&amp;path=%2F&amp;filename=Bildschirmfoto%202018-04-17%20um%2014.15.59.png&amp;openfolder=normal&amp;ep=" alt="alt-text"></p>
 <h2 id="hilfreiche-commands">Hilfreiche Commands</h2>
 
 <table>
